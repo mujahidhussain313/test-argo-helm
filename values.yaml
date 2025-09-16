@@ -13,4 +13,4 @@ config:
   welcomeMessage: "Welcome to my Helm app!"
 
 secret:
-  password: "supersecretpassword"
+  password: "supersecretpassword234changedchek"
