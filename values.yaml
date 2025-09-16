@@ -10,7 +10,7 @@ service:
   port: 80
 
 config:
-  welcomeMessage: "Welcome to my Helm app!"
+  welcomeMessage: "Welcome to my Helm app! version 2"
 
 secret:
   password: "supersecretpassword234changedchek"
