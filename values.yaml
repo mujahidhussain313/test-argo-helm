@@ -1,0 +1,16 @@
+replicaCount: 2
+
+image:
+  repository: nginx
+  tag: stable
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+config:
+  welcomeMessage: "Welcome to my Helm app!"
+
+secret:
+  password: "supersecretpassword"
