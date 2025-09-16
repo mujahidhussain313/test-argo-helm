@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: nginx
-  tag: stable
+  repository: public.ecr.aws/d8u4p8b5/test-repo
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
